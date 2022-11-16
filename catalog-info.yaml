@@ -5,6 +5,7 @@ metadata:
   description: A sample catalog for Backstage
   annotations:
     'backstage.io/techdocs-ref': dir:.
+    'backstage.io/kubernetes-label-selector':'catalog_disposition=to_be_collect'
 spec:
   targets:
     - ./components/tap-gui.yaml
